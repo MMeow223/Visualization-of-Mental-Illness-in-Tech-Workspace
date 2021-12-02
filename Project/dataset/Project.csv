@@ -1,0 +1,4 @@
+﻿ResponseFamilyHistory,BeforeFamilyHistory,AfterFamilyHistory,ResponseGender,BeforeGender,AfterGender,ResponseInterview,BeforePhysicalHealth,BeforeMentalHealth,AfterPhysicalHealth,AfterMentalHealth,PastMentalIssue,CurrentMentalIssue,ResponseDiagnosed,BeforeDiagnosed,AfterDiagnosed
+Yes,603,568,Male,974,882,Yes,324,104,255,65,671,525,Yes,650,628
+No,438,415,Female,317,409,Maybe,563,383,480,334,563,521,No,641,663
+I don't know,250,308,,,,No,404,804,556,892,,,,,

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Data Visualisation Project">
+    <meta name="keywords" content="HTML, CSS, D3">
+    <meta name="author" content="Ng Jing Ping">
+    <title>Mental Health Analysis </title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="javascript/script1.js"></script>
+
+</head>
+
+<body>
+    <div id="main-container">
+        <h1 id="header1">Tech workspace mental health issue before 2016 and after 2016</h1>
+        <div id="container0">
+            <h1 id="header2">Where are our respondent came from?</h1>
+
+            <svg id="map"></svg>
+            <svg id="map-legend"></svg>
+
+        </div>
+        <div id="update">
+            <span><button id="before">Before 2016</button></span>
+            <span><button id="after">After 2016</button></span>
+        </div>
+        <div id="scroll">
+            <div id="containerwrapper" class="svg-container">
+                <div id="left-col">
+                    <div id="container1">
+                        <p id="male"></p>
+                        <p id="female"></p>
+                        <p id="past"></p>
+                        <p id="current"></p>
+                    </div>
+                    <div id="container2">
+                        <p id="history"></p>
+                        <p id="physical"></p>
+                        <p id="mental"></p>
+                    </div>
+                    <div id="container3">
+                        <p id="age"></p>
+                        <p id="diagnosed"></p>
+                    </div>
+                </div>
+                <div id="right-col">
+                    <p id="treated"></p>
+                    <p id="handled"></p>
+                </div>
+            </div>
+
+            <footer id="footer2"> COS30045 Data Visualisation Project<br/>Ng Jing Ping and Elvis Wong Kiung Kiat </footer>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

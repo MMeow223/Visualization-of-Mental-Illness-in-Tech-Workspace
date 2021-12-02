@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(214, 214, 214);
+}
+
+#homebg {
+    background-image: url('../images/homebg.jpeg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#hometext {
+    width: 40%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    font-size: 300%;
+    color: white;
+    padding: 2%;
+}
+
+#hometext #text1 {
+    color: rgb(192, 141, 31);
+}
+
+#hometext #text2 {
+    border-bottom: 3px solid black;
+}
+
+#hometext #text3 {
+    color: black;
+    font-style: italic;
+}
+
+button,
+button::after {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.button {
+    position: relative;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+.button::before,
+.button::after {
+    background: #fff;
+    content: '';
+    position: absolute;
+    z-index: -1;
+}
+
+.button:hover {
+    color: #2ecc71;
+}
+
+.homebtn {
+    color: white;
+    border: 2px solid #e7e7e7;
+}
+
+.homebtn:hover {
+    color: black;
+    background-color: white;
+    transition: all .5s ease;
+}
+
+.homebtn::after {
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 0;
+}
+
+.homebtn:hover:after {
+    width: 100%;
+}
+
+#footer {
+    color: rgb(66, 66, 66);
+    padding-left: 8px;
+    position: absolute;
+    bottom: 2%;
+}
+
+#footer2 {
+    color: rgb(66, 66, 66);
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    bottom: 5%;
+}
+
+#header1 {
+    margin: 5px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+}
+
+#header2 {
+    width: 80%;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.707);
+    color: black;
+}
+
+#update {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#before {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 0;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #F0F0F0;
+    border: 2px solid black;
+}
+
+#after {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 0;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #F0F0F0;
+    border: 2px solid black;
+}
+
+#before:hover,
+#after:hover {
+    color: white;
+    background-color: rgb(192, 141, 31);
+}
+
+#scroll {
+    width: 100%;
+    padding-bottom: 10px;
+    overflow: auto;
+}
+
+#containerwrapper {
+    display: flex;
+    ;
+}
+
+#container0,
+#container1,
+#container2,
+#container3 {
+    width: 80%;
+    display: flex;
+}
+
+#container0 {
+    width: 100%;
+    display: block;
+}
+
+#main-container {
+    display: block;
+    text-align: center;
+}
+
+#right-col {
+    padding-right: 5px;
+}
+
+.toolTip {
+    position: absolute;
+    display: none;
+    min-width: 100px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    padding: 14px;
+    font-size: 14px;
+    text-align: center;
+}
+
+#map svg {
+    display: block;
+    margin: auto;
+    /* border: 1px solid black;
+    text-align: center; */
+}
+
+#map rect {
+    display: inline;
+}
+
+@media only screen and (max-width: 1000px) {
+    #hometext {
+        width: 80%;
+        height: auto;
+        background-color: rgb(255, 255, 255, 0.3);
+        ;
+        position: absolute;
+        top: 30%;
+        transform: translateY(-50%);
+        font-weight: bold;
+        font-size: 200%;
+        color: white;
+    }
+}
